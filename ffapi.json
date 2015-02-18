@@ -1,0 +1,73 @@
+{
+  "name": "Freifunk Trier",
+  "url": "http://trier.freifunk.net/",
+  "location": {
+    "city": "Trier",
+    "country": "DE",
+    "lat": 49.7596,
+    "lon": 6.6439
+  },
+  "state": {
+    "nodes": 3,
+    "lastchange": "2015-02-18T20:24:39.742Z",
+    "focus": []
+  },
+  "contact": {
+    "irc": "irc://irc.freenode.net/freifunktrier",
+    "ml": "trier@freifunk.net",
+    "facebook": "https://www.facebook.com/freifunktrier",
+    "twitter": "@freifunktrier"
+  },
+  "feeds": [
+    {
+      "name": "Blog",
+      "category": "blog",
+      "type": "atom",
+      "url": "http://trier.freifunk.net/feed/"
+    }
+  ],
+  "support": {
+    "club": {
+      "name": "Maschinendeck e.V.",
+      "city": "Trier",
+      "url": "http://www.maschinendeck.org/"
+    }
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "Gluon",
+      "url": "https://github.com/freifunktrier/firmware_store/tree/master/firmware/stable/factory"
+    },
+    "dns": [
+      {
+        "domainname": "fftr",
+        "nameserver": [
+          "10.172.0.11"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "fdca:ffee:fc0f::/64"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.172.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational"
+    ]
+  },
+  "api": "0.4.6"
+}
