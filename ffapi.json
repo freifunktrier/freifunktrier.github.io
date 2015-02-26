@@ -8,8 +8,8 @@
     "lon": 6.6439
   },
   "state": {
-    "nodes": 5,
-    "lastchange": "2015-02-18T20:24:39.742Z",
+    "nodes": 15,
+    "lastchange": "2015-02-26T01:24:39.742Z",
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
