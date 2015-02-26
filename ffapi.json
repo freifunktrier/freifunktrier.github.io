@@ -1,30 +1,35 @@
 {
   "name": "Freifunk Trier",
-  "url": "http://trier.freifunk.net/",
+  "url": "http://trier.freifunk.net",
   "location": {
     "city": "Trier",
     "country": "DE",
     "lat": 49.7596,
     "lon": 6.6439
   },
-  "state": {
-    "nodes": 15,
-    "lastchange": "2015-02-26T01:24:39.742Z",
-    "focus": [
-      "infrastructure/backbone",
-      "Public Free Wifi",
-      "Social Community Building",
-      "Local services and content",
-      "Free internet access"
-    ],
-  },
   "contact": {
-    "email": "trier.freifunk.net",
+    "email": "trier@freifunk.net",
     "irc": "irc://irc.freenode.net/freifunktrier",
     "ml": "trier@freifunk.net",
     "facebook": "https://www.facebook.com/freifunktrier",
     "twitter": "@freifunktrier"
   },
+  "state": {
+    "nodes": 15,
+    "description": "Local community",
+    "focus": [
+      "Public Free Wifi",
+      "Social Community Building",
+      "Free internet access"
+    ],
+    "lastchange": "2015-02-26T17:23:44.502Z"
+  },
+  "timeline": [
+    {
+      "description": "Founded in",
+      "timestamp": "2015-01-01"
+    }
+  ],
   "feeds": [
     {
       "name": "Blog",
@@ -33,17 +38,45 @@
       "url": "http://trier.freifunk.net/feed/"
     }
   ],
+  "nodeMaps": [
+    {
+      "url": "http://draco.fftr/map/graph.html",
+      "interval": "5 min",
+      "technicalType": "ffmap",
+      "mapType": "structural"
+    },
+    {
+      "url": "http://draco.fftr/map/geomap.html",
+      "interval": "5 min",
+      "technicalType": "ffmap",
+      "mapType": "geographical"
+    },
+    {
+      "url": "http://draco.fftr/map/list.html",
+      "technicalType": "ffmap",
+      "mapType": "list/status"
+    }
+  ],
   "support": {
     "club": {
       "name": "Maschinendeck e.V.",
       "city": "Trier",
-      "url": "http://www.maschinendeck.org/"
+      "url": "http://www.maschinendeck.org/",
+      "email": "kontakt@maschinendeck.org"
+    },
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE83585501300001071703",
+        "BIC": "TRISDE55XXX",
+        "usage": "Freifunk Trier"
+      }
     }
   },
   "techDetails": {
     "firmware": {
       "name": "Gluon",
-      "url": "https://github.com/freifunktrier/firmware_store/tree/master/firmware/stable/factory"
+      "url": "https://github.com/freifunktrier/firmware_store/tree/master/firmware/stable/factory",
+      "docs": "http://trier.freifunk.net/mitmachen/"
     },
     "dns": [
       {
@@ -66,9 +99,10 @@
       ]
     },
     "routing": [
-      "batman-adv v15"
+      "batman-adv"
     ],
     "updatemode": [
+      "none",
       "manual",
       "autoupdate"
     ],
