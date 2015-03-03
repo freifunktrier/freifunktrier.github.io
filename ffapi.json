@@ -18,11 +18,13 @@
     "nodes": 15,
     "description": "Local community",
     "focus": [
+      "infrastructure/backbone",
       "Public Free Wifi",
       "Social Community Building",
+      "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2015-02-26T17:23:44.502Z"
+    "lastchange": "2015-03-03T20:16:53.803Z"
   },
   "timeline": [
     {
@@ -40,19 +42,20 @@
   ],
   "nodeMaps": [
     {
-      "url": "http://draco.fftr/map/graph.html",
-      "interval": "5 min",
+      "url": "http://map.freifunk-trier.starletp9.de/graph.html",
+      "interval": "20",
       "technicalType": "ffmap",
       "mapType": "structural"
     },
     {
-      "url": "http://draco.fftr/map/geomap.html",
-      "interval": "5 min",
+      "url": "http://map.freifunk-trier.starletp9.de/geomap.html",
+      "interval": "20",
       "technicalType": "ffmap",
       "mapType": "geographical"
     },
     {
-      "url": "http://draco.fftr/map/list.html",
+      "url": "http://map.freifunk-trier.starletp9.de/list.html",
+      "interval": "20",
       "technicalType": "ffmap",
       "mapType": "list/status"
     }
@@ -75,8 +78,8 @@
   "techDetails": {
     "firmware": {
       "name": "Gluon",
-      "url": "https://github.com/freifunktrier/firmware_store/tree/master/firmware/stable/factory",
-      "docs": "http://trier.freifunk.net/mitmachen/"
+      "url": "http://freifunktrier.github.io/Website/firmware.html",
+      "docs": "http://freifunktrier.github.io/Website/firmware.html"
     },
     "dns": [
       {
