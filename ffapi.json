@@ -15,7 +15,7 @@
     "twitter": "@freifunktrier"
   },
   "state": {
-    "nodes": 25,
+    "nodes": 40,
     "description": "Local community",
     "focus": [
       "infrastructure/backbone",
@@ -24,7 +24,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2015-04-09T21:46:12.682Z"
+    "lastchange": "2015-04-24T16:23:20.665Z"
   },
   "timeline": [
     {
@@ -115,5 +115,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.6"
+  "api": "0.4.8"
 }
