@@ -15,7 +15,7 @@
     "twitter": "@freifunktrier"
   },
   "state": {
-    "nodes": 110,
+    "nodes": 140,
     "description": "Local community",
     "focus": [
       "infrastructure/backbone",
@@ -24,7 +24,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2015-06-19T12:16:08.065Z"
+    "lastchange": "2015-12-21T21:42:45.317Z"
   },
   "timeline": [
     {
@@ -79,7 +79,8 @@
     "firmware": {
       "name": "Gluon",
       "url": "http://freifunktrier.github.io/Website/firmware.html",
-      "docs": "http://freifunktrier.github.io/Website/firmware.html"
+      "docs": "http://freifunktrier.github.io/Website/firmware.html",
+      "vpnaccess": "mail"
     },
     "dns": [
       {
@@ -115,5 +116,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.8"
+  "api": "0.4.11"
 }
