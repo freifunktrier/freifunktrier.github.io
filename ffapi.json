@@ -15,7 +15,7 @@
     "twitter": "@freifunktrier"
   },
   "state": {
-    "nodes": 140,
+    "nodes": 500,
     "description": "Local community",
     "focus": [
       "infrastructure/backbone",
