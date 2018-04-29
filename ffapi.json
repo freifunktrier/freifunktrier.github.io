@@ -9,6 +9,7 @@
   },
   "contact": {
     "email": "trier@freifunk.net",
+    "phone": "+49 651-9960300",
     "irc": "irc://irc.freenode.net/freifunktrier",
     "ml": "trier@freifunk.net",
     "facebook": "https://www.facebook.com/freifunktrier",
@@ -16,7 +17,7 @@
   },
   "state": {
     "nodes": 500,
-    "description": "Local community",
+    "description": "Local community in RLP. We support a whole region with the cities like Trier / Wittlich / Bitburg / Daun / Prüm / Saarburg / Hermeskeil.",
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -24,7 +25,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2015-12-21T21:42:45.317Z"
+    "lastchange": "2018-04-29T13:24:39.810Z"
   },
   "timeline": [
     {
@@ -42,37 +43,27 @@
   ],
   "nodeMaps": [
     {
-      "url": "http://map.freifunk-trier.starletp9.de/graph.html",
-      "interval": "20",
-      "technicalType": "ffmap",
-      "mapType": "structural"
-    },
-    {
-      "url": "http://map.freifunk-trier.starletp9.de/geomap.html",
-      "interval": "20",
-      "technicalType": "ffmap",
+      "url": "http://maps.tackin.de/",
+      "interval": "1min",
+      "technicalType": "meshviewer",
       "mapType": "geographical"
     },
     {
-      "url": "http://map.freifunk-trier.starletp9.de/list.html",
-      "interval": "20",
-      "technicalType": "ffmap",
+      "url": "http://maps.tackin.de/data/nodelist.json",
+      "interval": "1min",
+      "technicalType": "nodelist",
       "mapType": "list/status"
+    },
+    {
+      "url": "http://maps.tackin.de/#/graph",
+      "interval": "1min",
+      "technicalType": "meshviewer",
+      "mapType": "structural"
     }
   ],
   "support": {
     "club": {
-      "name": "Maschinendeck e.V.",
-      "city": "Trier",
-      "url": "http://www.maschinendeck.org/",
-      "email": "kontakt@maschinendeck.org"
-    },
-    "donations": {
-      "bankaccount": {
-        "IBAN": "DE83585501300001071703",
-        "BIC": "TRISDE55XXX",
-        "usage": "Freifunk Trier"
-      }
+      "city": "Trier"
     }
   },
   "techDetails": {
@@ -116,5 +107,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.11"
+  "api": "0.4.14"
 }
