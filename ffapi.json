@@ -44,19 +44,19 @@
   "nodeMaps": [
     {
       "url": "http://maps.tackin.de/",
-      "interval": "1min",
+      "interval": "10",
       "technicalType": "meshviewer",
       "mapType": "geographical"
     },
     {
       "url": "http://maps.tackin.de/data/nodelist.json",
-      "interval": "1min",
+      "interval": "10",
       "technicalType": "nodelist",
       "mapType": "list/status"
     },
     {
       "url": "http://maps.tackin.de/#/graph",
-      "interval": "1min",
+      "interval": "10",
       "technicalType": "meshviewer",
       "mapType": "structural"
     }
