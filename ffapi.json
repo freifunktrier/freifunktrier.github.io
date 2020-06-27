@@ -10,14 +10,14 @@
   "contact": {
     "email": "trier@freifunk.net",
     "phone": "+49 651-9960300",
-    "irc": "irc://irc.freenode.net/freifunktrier",
+    "irc": "irc://irc.hackint.org/freifunktrier",
     "ml": "trier@freifunk.net",
     "facebook": "https://www.facebook.com/freifunktrier",
     "twitter": "@freifunktrier"
   },
   "state": {
     "nodes": 500,
-    "description": "Local community in RLP. We support a whole region with the cities like Trier / Wittlich / Bitburg / Daun / Prüm / Saarburg / Hermeskeil.",
+    "description": "Local community in RLP. We support the region with the cities like Trier / Wittlich / Bitburg / Daun / Prüm / Saarburg / Hermeskeil.",
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -25,7 +25,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2018-04-29T13:24:39.810Z"
+    "lastchange": "2020-06-27T12:24:39.810Z"
   },
   "timeline": [
     {
@@ -43,19 +43,19 @@
   ],
   "nodeMaps": [
     {
-      "url": "http://maps.tackin.de/",
+      "url": "http://maps.freifunk-trier.de/",
       "interval": "10",
       "technicalType": "meshviewer",
       "mapType": "geographical"
     },
     {
-      "url": "http://maps.tackin.de/data/nodelist.json",
+      "url": "http://maps.freifunk-trier.de/data/nodelist.json",
       "interval": "10",
       "technicalType": "nodelist",
       "mapType": "list/status"
     },
     {
-      "url": "http://maps.tackin.de/#/graph",
+      "url": "http://maps.freifunk-trier.de/#/graph",
       "interval": "10",
       "technicalType": "meshviewer",
       "mapType": "structural"
@@ -77,15 +77,16 @@
       {
         "domainname": "fftr",
         "nameserver": [
-          "10.172.0.11",
-          "10.172.0.12"
+          "10.172.0.14",
+          "10.172.0.16",
+		  "10.172.0.21"
         ]
       }
     ],
     "networks": {
       "ipv6": [
         {
-          "network": "2001:bf7:fc0f::/64"
+          "network": "2001:bf7:fc00::/44"
         }
       ],
       "ipv4": [
