@@ -43,19 +43,19 @@
   ],
   "nodeMaps": [
     {
-      "url": "http://maps.freifunk-trier.de/",
+      "url": "https://maps.freifunk-trier.de/",
       "interval": "10",
       "technicalType": "meshviewer",
       "mapType": "geographical"
     },
     {
-      "url": "http://maps.freifunk-trier.de/data/nodelist.json",
+      "url": "https://maps.freifunk-trier.de/data/nodelist.json",
       "interval": "10",
       "technicalType": "nodelist",
       "mapType": "list/status"
     },
     {
-      "url": "http://maps.freifunk-trier.de/#/graph",
+      "url": "https://maps.freifunk-trier.de/#/graph",
       "interval": "10",
       "technicalType": "meshviewer",
       "mapType": "structural"
@@ -69,8 +69,8 @@
   "techDetails": {
     "firmware": {
       "name": "Gluon",
-      "url": "http://freifunktrier.github.io/Website/firmware.html",
-      "docs": "http://freifunktrier.github.io/Website/firmware.html",
+      "url": "https://freifunktrier.github.io/Website/firmware.html",
+      "docs": "https://freifunktrier.github.io/Website/firmware.html",
       "vpnaccess": "mail"
     },
     "dns": [
